@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/main.css"/>
+    </head>
+    <body>
+        <div class="maindiv" style="text-align: center;">
+        <form action="AddItem" method="post">
+            <br>
+            ISBN:<input type="text" name="isbn" placeholder="1425-5123-1623-1523">
+            <br>
+            Titel:<input type="text" name="title" placeholder="titel">
+            <br>
+            Forfatter:<input type="text" name="author" placeholder="forfatter">
+            <br>
+            Type:<select name="itype">
+                <option value="book" selected>bog</option>
+                <option value="dvd">dvd</option>
+                <option value="journal">journal</option>
+            </select>
+            <br>
+            Sprog:<input type="text" name="language" placeholder="sprog">
+            <br>
+            Udgiver:<input type="text" name="publisher" placeholder="udgiver">
+            <br>
+            Udgivelsesdato:<input type="text" name="publishdate" placeholder="yyyy-mm-dd">
+            <br>
+            <input type="submit" value="tilføj!">
+        </form>
+        </div>
+    </body>
+</html>
